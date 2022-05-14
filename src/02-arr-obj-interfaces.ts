@@ -1,6 +1,6 @@
 
 
-let habilidades: string []= ['bash', 'counter', 'healing'];
+let habilidades: number []= [1, 2, 3, 5];
 
 interface personaje {
 
@@ -14,7 +14,7 @@ interface personaje {
 const personaje: personaje = {
  nombre: 'strider',
  hp: 70,
- habilidades: ['bash', 'counter', 'healing']
+ habilidades: [1, 2, 3, 5]
 }
 
 personaje.puebloNatal = 'pueblo paleta';
